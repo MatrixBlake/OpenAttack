@@ -1,7 +1,7 @@
 import sys
 from typing import Any, Dict, Generator, Iterable, List, Optional, Union
 import logging
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 from ..utils import visualizer, result_visualizer, get_language, language_by_name
 from .utils import worker_process, worker_init, attack_process
 from ..tags import *
